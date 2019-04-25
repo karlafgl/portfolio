@@ -45,3 +45,15 @@ header {
   .textPink {
       color: #e83e8c
   }
+
+/* .aboutMe {
+    background: url("/img/AdobeStock_219923851.jpeg") center / cover;
+} */
+
+/* .aboutMe {
+    background-color:rgba(0, 0, 0, 0.977);
+} */
+
+.bg-pink {
+    background: #e83e8c
+}
