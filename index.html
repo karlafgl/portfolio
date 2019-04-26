@@ -17,6 +17,9 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- SCROOLL REVEAL JS LIBRARY CDN -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
     <!-- ICONS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
@@ -55,7 +58,7 @@
     </header>
 
     <!-- Eslogan -->
-    <div class="text-center mt-2 shadow-lg p-3 mb-5 bg-white rounded" id='header'>  
+    <div class="text-center mt-2 shadow-lg p-3 mb-5 bg-white rounded" id="about">  
       <div class="row">
         <div class="col-lg-12">
           <h2 class="">Transform your business with <span class="textPink">solutions</span> tailored to your needs & goals.</h2>
@@ -64,9 +67,9 @@
     </div>
       
     <!-- about -->
-    <section class="text-center my-5 container-fluid" id="about">
+    <section class="text-center my-5 container-fluid" >
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="col-lg-4 col-md-4 col-sm-12 about-content-bottom">
           <p class="lead text-left mx-auto mb-5">I used the latest technology to stay ahead of the competition. We use innovative marketing campaigns to advance business through the digital world. </p>
           <div class="row">
             <div class="col-lg-5 text-left text-lg-left">
@@ -109,25 +112,71 @@
       </div>
     </section>
 
+    <!-- Services -->
+    <div class="container-fluid text-justify shadow-lg p-3 pb-5 mb-5 bg-white rounded" id="services">
+      <div class="row">
+        <div class="col-12">
+          <div class="mt-4">
+            <h4 class="text-center display-4 font-weight-bold">Services</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 mt-5 about-content-bottom">
+          <div class="card h-100 img-fluid">
+            <h5 class="card-header text-center textPink">Web Design</h5>
+            <img class="card-img-top" src="img/webDesign01.jpg" alt="webDesign image" height="260">
+            <div class="card-body">
+              <p class="card-text">The Internet is changing every day. Therefore, it's importante to integrate the latest technologies into your web site. I offer Web Design, E-Commerce, and Custom Web Applications.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 mt-5 about-content-bottom2">
+          <div class="card h-100 img-fluid">
+            <h5 class="card-header text-center textPink">Responsive Design</h5>
+            <img class="card-img-top" src="img/responsiveDesign01.jpg" alt="responsiveDesign image" height="260">
+            <div class="card-body">
+              <p class="card-text">Smartphones are continuing to grow in power and popularity. I take these factors into consideration when designing a website and testing on multiple applications, including iPhone/iPad, Android, Blackberry TIM, and more</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 mt-5 about-content-bottom3">
+          <div class="card h-100 img-fluid">
+            <h5 class="card-header text-center textPink">Programming</h5>
+            <img class="card-img-top" src="img/programming01.jpg" alt="programming image" height="260">
+            <div class="card-body">
+              <p class="card-text">I offer everything from basic calculators and web forms to advanced online database solutions and Content Management System (CMS) websites.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 mt-5 about-content-bottom4">
+          <div class="card h-100 img-fluid">
+            <h5 class="card-header text-center textPink">SEO</h5>
+            <img class="card-img-top" src="img/seo01.jpg" alt="programming image" height="260">
+            <div class="card-body">
+              <p class="card-text">Search Engine Optimization services allow your business to be found easily on the web. By working with me, I can get your business ranked higher on search engines today!</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- About me -->
     <section class="container-fluid mt-3 pl-5 pr-5 justify-content-center shadow-lg p-3 mb-5 bg-white rounded" id="aboutMe">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 card border-0  mt-4">
             <p class="font-weight-bold my-5 display-4 text-center">About me</p>
-            <div class="mx-auto mb-4">
+            <div class="mx-auto mb-4 about-content-left">
               <img src="img/meAvatar.png" class="rounded-circle img-fluid " height="150" width="150" alt="Karla Gonzalez profile-photo">
             </div>
-            <div class="text-center mb-5"> 
+            <div class="text-center mb-5 about-content-left"> 
               <p class="h6">
                 <i class="fas fa-quote-left"></i>I'm a full-stack developer from Mexico. I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences. I have created and developed web pages and UI specifications. Developing payment services through NodeJS and PayPal API. Experience with HTML, CSS & Javascript, worked closely with React and Node.js.
               </p>
               <h4 class="font-weight-bold">Karla Gonzalez</h4>
               <h6 class="textPink">Founder at KarWeb - Web Solutions</h6>
-              <i class="fas fa-star text-warning"> </i>
-              <i class="fas fa-star text-warning"> </i>
-              <i class="fas fa-star text-warning"> </i>
-              <i class="fas fa-star text-warning"> </i>
-              <i class="fas fa-star-half-alt text-warning"> </i>
             </div>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 mt-4 pl-5 pt-3 pr-5">
@@ -186,59 +235,8 @@
       </div>
     </div>
 
-    <!-- Services -->
-    <div class="container-fluid text-justify shadow-lg p-3 pb-5 mb-5 bg-white rounded" id="services">
-      <div class="row">
-        <div class="col-12">
-          <div class="mt-4">
-            <h4 class="text-center display-4 font-weight-bold">Services</h4>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-5">
-          <div class="card h-100 img-fluid">
-            <h5 class="card-header text-center textPink">Web Design</h5>
-            <img class="card-img-top" src="img/webDesign01.jpg" alt="webDesign image" height="260">
-            <div class="card-body">
-              <p class="card-text">The Internet is changing every day. Therefore, it's importante to integrate the latest technologies into your web site. I offer Web Design, E-Commerce, and Custom Web Applications.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-5">
-          <div class="card h-100 img-fluid">
-            <h5 class="card-header text-center textPink">Responsive Design</h5>
-            <img class="card-img-top" src="img/responsiveDesign01.jpg" alt="responsiveDesign image" height="260">
-            <div class="card-body">
-              <p class="card-text">Smartphones are continuing to grow in power and popularity. I take these factors into consideration when designing a website and testing on multiple applications, including iPhone/iPad, Android, Blackberry TIM, and more</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-5">
-          <div class="card h-100 img-fluid">
-            <h5 class="card-header text-center textPink">Programming</h5>
-            <img class="card-img-top" src="img/programming01.jpg" alt="programming image" height="260">
-            <div class="card-body">
-              <p class="card-text">I offer everything from basic calculators and web forms to advanced online database solutions and Content Management System (CMS) websites.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 mt-5">
-          <div class="card h-100 img-fluid">
-            <h5 class="card-header text-center textPink">SEO</h5>
-            <img class="card-img-top" src="img/seo01.jpg" alt="programming image" height="260">
-            <div class="card-body">
-              <p class="card-text">Search Engine Optimization services allow your business to be found easily on the web. By working with me, I can get your business ranked higher on search engines today!</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Testimonials-->
-    <section class="text-center my-5 container rounded mb-5" id="testimonial"">
+    <section class="text-center my-5 container rounded mb-5" id="testimonial">
       <h2 class="font-weight-bold my-5 display-4">Testimonials</h2>
       <p class="mx-auto mb-5">Credibility is essential to the success of Karla Gonzalez Web Solutions services that is why is very committed with our client experiences. Feel free to drop us a line or send your brief.</p>
       <div class="row text-center">
@@ -283,7 +281,7 @@
         <div class="col-md-4 h-100">
           <div class="card border-0 h-100">
             <div class="mx-auto">
-              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+              <img src="img/img_sharper-threde-logo.jpg" class="rounded-circle z-depth-1 img-fluid">
             </div>
             <h4 class="font-weight-bold  mt-4">Michael Guild</h4>
             <h6 class="font-weight-bold textPink my-3">Co-Founder at Threde</h6>

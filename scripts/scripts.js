@@ -18,3 +18,44 @@ jQuery(document).ready(function($) {
 
 // Dynamically add copyright year using new Date
 document.getElementById('copyright-year').innerHTML = new Date().getFullYear();
+
+//Navbar
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+//Reveal Effect
+window.sr = ScrollReveal();
+
+sr.reveal('.about-content-left', {
+  duration: 2000,
+  origin: 'left',
+  distance: '300px'
+  });
+
+  sr.reveal('.about-content-bottom', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '300px'
+    });
+
+  sr.reveal('.about-content-bottom2', {
+    duration: 3000,
+    origin: 'bottom',
+    distance: '300px'
+    });
+
+    sr.reveal('.about-content-bottom3', {
+      duration: 4000,
+      origin: 'bottom',
+      distance: '300px'
+      });
+
+      sr.reveal('.about-content-bottom4', {
+        duration: 5000,
+        origin: 'bottom',
+        distance: '300px'
+        });
